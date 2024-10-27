@@ -27,18 +27,17 @@
 .text-custom {
     color: #0F0000 !important;
 }
-
+/*
 .text-custom {
     font-family: Constantia, 'Times New Roman', Times, serif !important;
     font-weight: bold;
 }
-
-.music_slide > ctt {
-    font-family: 'Courier New', 'Times New Roman', Times, serif !important;
+*/
+.music_slide {
+    font-family: Impact, Constantia,'Courier New','Times New Roman', Times, serif !important;
     font-weight: bold;
     text-transform: uppercase;
 }
-
 
 /* Animações de entrada e saída */
 @keyframes fadeIn {
