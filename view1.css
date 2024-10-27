@@ -1,43 +1,24 @@
-
-.screen-custom::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(255, 235, 220, 0.25);
-    z-index: 1;
-}
-
-.screen-custom {
-    border-radius: 50px;
-    background-color: #ffe4b5;
-    background-image: url('https://nutricaodesafras.com.br/wp-content/uploads/2023/10/plantacao-de-trigo.jpg');
-    background-size: cover;
-    background-position: 35% 25%;
-    width: 1500px !important;
-    height: 180px !important;
-    margin: 10px;
-    box-shadow: -4px 4px 10px rgba(0, 0, 0, 0.6);
-    overflow: hidden;
-}
-
+/* Personalização do texto */
 
 .text-custom {
     color: #0F0000 !important;
-}
-/*
-.text-custom {
     font-family: Constantia, 'Times New Roman', Times, serif !important;
     font-weight: bold;
 }
-*/
+
 .music_slide {
+    color: #FFF !important;
     font-family: Impact, Constantia,'Courier New','Times New Roman', Times, serif !important;
     font-weight: bold;
     text-transform: uppercase;
 }
+
+.bible_slide {
+    color: #0F0000 !important;
+    font-family: Constantia, 'Times New Roman', Times, serif !important;
+    font-weight: bold;
+}
+/* Personalização do texto - Fim */
 
 /* Animações de entrada e saída */
 @keyframes fadeIn {
@@ -68,7 +49,9 @@
 .animation_out {
     animation: fadeOut 0.3s forwards;
 }
+/* Animações de entrada e saída - Fim */
 
+/* Organização da caixa da biblia */
 .bible_slide {
     align-items: center;
 }
@@ -82,8 +65,33 @@
     text-align: center;
 }
 
-
 desc {
     margin-top: 15px;
     font-size: 70%;
+}
+/* Organização da caixa da biblia - Fim */
+
+.screen-custom::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 235, 220, 0.25);
+    z-index: 1;
+
+}
+
+.screen-custom {
+    border-radius: 50px;
+    background-color: #ffe4b5;
+    background-image: url('https://nutricaodesafras.com.br/wp-content/uploads/2023/10/plantacao-de-trigo.jpg');
+    background-size: cover;
+    background-position: 35% 25%;
+    width: 1500px !important;
+    height: 180px !important;
+    margin: 10px;
+    box-shadow: -4px 4px 10px rgba(0, 0, 0, 0.6);
+    overflow: hidden;
 }
