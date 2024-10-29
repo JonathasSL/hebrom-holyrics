@@ -1,4 +1,5 @@
 /* Personalização do texto */
+
 .text-custom {
     color: #0F0000 !important;
     font-family: Constantia, 'Times New Roman', Times, serif !important;
@@ -6,7 +7,6 @@
 }
 
 .music_slide {
-    color: #FFF !important;
     font-family: Impact, Constantia,'Courier New','Times New Roman', Times, serif !important;
     font-weight: bold;
     text-transform: uppercase;
@@ -16,7 +16,7 @@
     font-family: Constantia, 'Times New Roman', Times, serif !important;
     font-weight: bold;
 }
-/* Personalização do texto - Fim */
+/* Fim - Personalização do texto */
 
 /* Animações de entrada e saída */
 @keyframes fadeIn {
@@ -47,7 +47,7 @@
 .animation_out {
     animation: fadeOut 0.3s forwards;
 }
-/* Animações de entrada e saída - Fim */
+/* Fim - Animações de entrada e saída */
 
 /* Organização da caixa da biblia */
 .bible_slide {
@@ -67,7 +67,7 @@ desc {
     margin-top: 15px;
     font-size: 70%;
 }
-/* Organização da caixa da biblia - Fim */
+/* Fim - Organização da caixa da biblia */
 
 .screen-custom::before {
     content: "";
@@ -84,7 +84,7 @@ desc {
 .screen-custom {
     border-radius: 50px;
     background-color: #ffe4b5;
-    background-image: url('https://raw.githubusercontent.com/JonathasSL/hebrom-holyrics/refs/heads/main/plantacao-de-trigo.jpg');
+    background-image: url('https://nutricaodesafras.com.br/wp-content/uploads/2023/10/plantacao-de-trigo.jpg');
     background-size: cover;
     background-position: 35% 25%;
     width: 1500px !important;

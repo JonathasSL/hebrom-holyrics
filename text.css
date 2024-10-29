@@ -1,0 +1,50 @@
+/* Personalização do texto */
+.text-custom {
+    color: #0F0000 !important;
+    font-family: Constantia, 'Times New Roman', Times, serif !important;
+    font-weight: bold;
+}
+
+.music_slide {
+    color: #FFF !important;
+    font-family: Impact, Constantia,'Courier New','Times New Roman', Times, serif !important;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.bible_slide {
+    font-family: Constantia, 'Times New Roman', Times, serif !important;
+    font-weight: bold;
+}
+/* Personalização do texto - Fim */
+
+/* Animações de entrada e saída */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+.text-custom span,
+.screen-custom {
+    animation: fadeIn 0.3s forwards;
+}
+
+.animation_out {
+    animation: fadeOut 0.3s forwards;
+}
+/* Animações de entrada e saída - Fim */
