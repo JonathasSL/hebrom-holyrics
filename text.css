@@ -10,6 +10,8 @@
     font-family: Impact, Constantia,'Courier New','Times New Roman', Times, serif !important;
     font-weight: bold;
     text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 .bible_slide {
